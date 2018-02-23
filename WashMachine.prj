@@ -1,0 +1,2 @@
+vhdl work "../VHDL_Debouncer/debouncer.vhd"
+vhdl work "Wash_machine.vhd"

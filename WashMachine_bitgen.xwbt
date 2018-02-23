@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Willian\Documents\ISE\AP6_EX1_Maquina_Lavar\WashMachine.ncd
+OUTFILE=C:\Users\Willian\Documents\ISE\AP6_EX1_Maquina_Lavar\WashMachine.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=C:\Users\Willian\Documents\ISE\AP6_EX1_Maquina_Lavar
+LICENSE=WebPack
+USER_INFO=211168119_0_0_054

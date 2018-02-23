@@ -1,0 +1,16 @@
+
+NET "liga" LOC = G12; # Bank = 0, Signal name = BTN0
+NET "sn" LOC = K3;  # Bank = 3, Signal name = SW2
+NET "st" LOC = P11;  # Bank = 2, Signal name = SW0
+NET "rst" LOC = N3;  # Bank = 2, Signal name = SW7
+
+NET "bs" LOC = P4 ; # Bank = 2, Signal name = LD6
+NET "vs" LOC = N4 ;  # Bank = 2, Signal name = LD5
+NET "br" LOC = N5 ;  # Bank = 2, Signal name = LD4
+NET "m_ctl<1>" LOC = P6 ; # Bank = 2, Signal name = LD3
+NET "m_ctl<0>" LOC = P7 ; # Bank = 3, Signal name = LD2
+NET "als" LOC = M11 ; # Bank = 2, Signal name = LD1
+NET "ve" LOC = M5 ;  # Bank = 2, Signal name = LD0
+
+NET "clk" LOC = B8; # Bank = 0, Signal name = MCLK
+NET "clk" CLOCK_DEDICATED_ROUTE = FALSE;

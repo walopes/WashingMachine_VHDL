@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Users/Willian/Documents/ISE/AP6_EX1_Maquina_Lavar/WashMachine.xst" -ofn "C:/Users/Willian/Documents/ISE/AP6_EX1_Maquina_Lavar/WashMachine.syr" 
+xst -intstyle ise -ifn "C:/Users/Willian/Documents/ISE/AP6_EX1_Maquina_Lavar/WashMachine.xst" -ofn "C:/Users/Willian/Documents/ISE/AP6_EX1_Maquina_Lavar/WashMachine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc map.ucf -p xc3s100e-cp132-5 WashMachine.ngc WashMachine.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o WashMachine_map.ncd WashMachine.ngd WashMachine.pcf 
+par -w -intstyle ise -ol high -t 1 WashMachine_map.ncd WashMachine.ncd WashMachine.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml WashMachine.twx WashMachine.ncd -o WashMachine.twr WashMachine.pcf -ucf map.ucf 
+bitgen -intstyle ise -f WashMachine.ut WashMachine.ncd 

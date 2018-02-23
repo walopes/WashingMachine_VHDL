@@ -1,0 +1,15 @@
+V3 7
+FL C:/Users/Willian/Documents/ISE/AP6_EX1_Maquina_Lavar/Wash_machine.vhd 2016/06/22.19:37:04 P.20131013
+EN work/WashMachine 1466635047 \
+      FL C:/Users/Willian/Documents/ISE/AP6_EX1_Maquina_Lavar/Wash_machine.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/WashMachine/logic 1466635048 \
+      FL C:/Users/Willian/Documents/ISE/AP6_EX1_Maquina_Lavar/Wash_machine.vhd \
+      EN work/WashMachine 1466635047 CP debouncer
+FL C:/Users/Willian/Documents/ISE/VHDL_Debouncer/debouncer.vhd 2016/05/04.19:22:18 P.20131013
+EN work/debouncer 1466635045 \
+      FL C:/Users/Willian/Documents/ISE/VHDL_Debouncer/debouncer.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/debouncer/logica 1466635046 \
+      FL C:/Users/Willian/Documents/ISE/VHDL_Debouncer/debouncer.vhd \
+      EN work/debouncer 1466635045
